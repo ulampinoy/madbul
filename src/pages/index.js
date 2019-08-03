@@ -8,9 +8,9 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h2>Welcome to MadBul!</h2>
-    <p>Currently brewing the site...</p>
-    <div style={{ maxWidth: `240px`, margin: `1.45rem auto` }}>
+    <h2>We are <b>craft beer</b> maker and <b>homebrew</b> enthusiasts!</h2>
+    <p>⌛ Site fermentation is on-going...</p>
+    <div className="madlogo" style={{ maxWidth: `200px`, margin: `.5rem auto 1.5rem` }}>
       <Image />
     </div>
   </Layout>

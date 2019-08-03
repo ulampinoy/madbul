@@ -37,7 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} MadBul
+          © {new Date().getFullYear()} MadBul — Handcraft Beer
         </footer>
       </div>
     </>
