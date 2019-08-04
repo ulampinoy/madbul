@@ -8,10 +8,10 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <h2>We are <b>craft beer</b> maker and <b>homebrew</b> enthusiasts!</h2>
-    <p><span role="img" aria-labelledby="emoji-hourglass">⌛</span> Site fermentation is on-going...</p>
     <div className="madlogo" style={{ maxWidth: `180px`, margin: `.5rem auto 1.5rem` }}>
       <Image />
     </div>
+    <p><span role="img" aria-labelledby="emoji-hourglass">⌛</span> Site fermentation is on-going...</p>
     <div className="contact-form">
       <h3>Want more info? Reach out!</h3>
       <form
