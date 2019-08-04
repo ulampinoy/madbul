@@ -38,7 +38,12 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} MadBul — Homebrewed Craft Beer
+          <p>
+            © {new Date().getFullYear()} MadBul — Homebrewed Craft Beers
+          </p>
+          <p>
+            Follow us in <a href="https://www.instagram.com/madbul.ph/">Instagram</a>
+          </p>
         </footer>
       </div>
     </>

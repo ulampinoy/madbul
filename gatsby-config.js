@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `MadBul`,
-    description: `Craft Beer Homebrewer based on Madrid and Bulacan`,
+    description: `Homebrew Craft Beers and Equipments based on Madrid and Bulacan`,
     author: `@pixeleden`,
   },
   plugins: [
