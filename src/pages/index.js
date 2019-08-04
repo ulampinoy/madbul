@@ -20,9 +20,8 @@ const IndexPage = () => (
         data-netlify="true"
         data-netlify-honeypot="bot-field"
       >
-        <input type="hidden" name="contact" value="contact" />
-        <input name="name" placeholder="Your name" type="text" />
         <input name="email" placeholder="Your email" type="email" />
+        <input name="name" placeholder="Your name" type="text" />
         <textarea name="message" placeholder="Message goes here" rows="4" />
         <button>Send message</button>
       </form>
