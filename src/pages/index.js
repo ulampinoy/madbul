@@ -16,11 +16,14 @@ const IndexPage = () => (
       <h3>Want more info? Reach out!</h3>
       <form
         name="contact"
-        method="POST"
-        netlify
+        method="post"
+        action="/thanks/"
+        data-netlify="true"
+        data-netlify-honeypot="bot-field"
       >
-        <input name="name" placeholder="Your name" type="text" />
-        <input name="email" placeholder="Your email" type="email" />
+        <input type="hidden" name="form-name" value="contact" />
+        <input type="text" name="name" placeholder="Your name" />
+        <input type="email" name="email" placeholder="Your email"  />
         <textarea name="message" placeholder="Message goes here" rows="4" />
         <button>Send message</button>
       </form>
