@@ -1,10 +1,11 @@
 module.exports = {
   siteMetadata: {
     title: `MadBul`,
-    description: `Handcrafted Beer Maker.`,
+    description: `Craft Beer Homebrewer based on Madrid and Bulacan`,
     author: `@pixeleden`,
   },
   plugins: [
+    `gatsby-plugin-sass`,
     `gatsby-plugin-react-helmet`,
     {
       resolve: `gatsby-source-filesystem`,
