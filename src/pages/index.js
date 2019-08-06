@@ -7,7 +7,7 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <h2>We are <b>craft beer</b> maker and <b>homebrew</b> enthusiasts!</h2>
+    <h2>We are <b>craft beer</b> maker &amp; <b>homebrew</b> enthusiasts!</h2>
     <div className="madlogo" style={{ maxWidth: `240px`, margin: `.5rem auto 1.5rem` }}>
       <Image />
     </div>

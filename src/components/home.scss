@@ -1,4 +1,5 @@
 body {
+  font-family: 'Zilla Slab', serif;
   background-color: rgb(255, 175, 55);
 }
 
@@ -59,9 +60,9 @@ body {
   }
 
   ::placeholder {
-    color: #303030;
-    font-size: 0.85rem;
-    font-weight: 300;
+    color: #202020;
+    font-size: 0.9rem;
+    font-weight: 400;
   }
 }
 

@@ -1,7 +1,7 @@
 module.exports = {
   siteMetadata: {
     title: `MadBul`,
-    description: `Homebrew Craft Beers and Equipments based on Madrid and Bulacan`,
+    description: `Homebrew Craft Beers and Equipments based on Madrid, Spain and Bulacan, Philippines`,
     author: `@pixeleden`,
   },
   plugins: [
@@ -21,6 +21,15 @@ module.exports = {
       options: {
         trackingId: "UA-145083608-1",
       },
+    },
+    {
+      resolve: `gatsby-plugin-google-fonts`,
+      options: {
+        fonts: [
+          `zilla slab\:400,500,700`
+        ],
+        display: 'swap'
+      }
     },
     {
       resolve: `gatsby-plugin-manifest`,
